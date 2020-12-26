@@ -1,0 +1,238 @@
+
+header{
+	background-color: #343a40!important;
+}
+.padding{
+	padding: 10px 70px!important;
+}
+.navbar a{
+	color: white!important;
+	font-size: 20px!important;
+	padding: 16px!important;
+	text-transform: uppercase!important;
+}
+.navbar a:hover{
+	color: white;
+	background-color: grey;
+
+}
+.dropdown-menu{
+	background-color: #343a40!important;
+}
+.banner{
+	background-color: #343a40!important;
+	padding-top: 50px!important;
+}
+.slider-text{
+	padding-bottom: 5%!important;
+}
+.offer-section{
+	padding: 100px 0!important;
+}
+.titel{
+	padding-bottom: 50px!important;
+	overflow: hidden!important;
+}
+.title h2{
+	font-weight: 600!important;
+	font-size: 35px!important;
+	color: #232323!important;
+}
+.title-p{
+	padding-top: 20px!important;
+	color: #848484;
+	width: 50%;
+	margin: 0 auto;
+}
+.offer-border{
+	height: 2px;
+	margin: 20px auto 20px;
+	position: relative;
+	width: 80px;
+	background: #28ABE3;
+}
+.service-item{
+	
+}
+.offer-section .service-item{
+	border: 2px solid #eee;
+	margin-bottom: 30px;
+	padding: 50px 20px;
+	transition: 0.3s;
+}
+.offer-section .service-item:hover {
+  background-color: #d6f5f5;
+  color: #6666ff;
+}
+.service-item i{
+	font-size: 30px;
+	background-color: #28ABE3;
+	padding: 8px 10px;
+	border-radius: 30px;
+	color: white;
+}
+.service-item i:hover{
+	background-color: white;
+	color: #28ABE3;
+}
+.about-2{
+	margin-bottom: 50px;
+}
+.checklist{
+	position: relative;
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #777;
+}
+.about-btn{
+	background: #28ABE3!important;
+	border: 1px solid #28ABE3!important;
+	color: #fff!important;
+	display: inline-block!important;
+	font-size: 14px!important;
+	letter-spacing: 1px!important;
+	padding: 12px 40px!important;
+	text-transform: uppercase!important;
+	border-radius: 40px!important;
+}
+.about-btn:hover{
+	background-color: white!important;
+	color: #28ABE3!important;
+}
+
+.call-to-action{
+
+	padding: 100px 0px;
+	background-image:url("../images/call-to-action-bg-2.jpg")!important;
+	background-size: cover;
+	color: #fff;
+}
+.counter-wrapper-titel{
+	padding-top: 100px!important;
+	overflow: hidden!important;
+}
+
+.counters-item::before {
+    background: #dcc9c9;
+    content: "";
+    margin-top: -27.5px;
+    height: 55px;
+    width: 1px;
+    position: absolute;
+    right: -15px;
+    top: 50%;
+}
+.counters-item {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: #444;
+    position: relative;
+}
+.counters-item i{
+	font-size: 30px;
+	background-color: #151010;
+	padding: 8px 10px;
+	border-radius: 30px;
+	color: white;
+}
+.counters-item span {
+    display: inline;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.counters-item.kill-border::before {
+    background: none;
+}
+.testimonial-Section{
+	padding-top: 63px;
+	padding-bottom: 175px;
+	background:url(../images/back.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.comment-resize{
+	color: white!important;
+	display: inline-block!important;
+    font-size: 100px!important;
+}
+.image-redius{
+	border-radius:100px!important;
+}
+.blog {
+    padding-bottom: 110px;
+    padding-top: 70px;
+    background: #F6F6F6;
+}
+.post-item .content p {
+    color: #757575;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.post-item {
+    background: #fff;
+    margin-bottom: 20px;
+}
+.top-footer {
+    background-color: #222222;
+    border-top: 1px solid #404040;
+    padding: 100px 0 80px;
+}
+.top-footer h3 {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.top-footer p {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+.top-footer li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #bdbdbd;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+    text-transform: uppercase;
+	border-radius: 10px;
+}
+.top-footer li a:hover{
+	background-color: grey;
+	color: white;
+	display: inline-block;
+	text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    background-color: #1b1b1b;
+    border-top: 1px solid #2c2c2c;
+    padding: 30px 0;
+}
+.footer-bottom h5 {
+    font-size: 12px;
+    line-height: 1;
+    color: #888888;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+}
+.footer-bottom h6 {
+    font-size: 11px;
+    line-height: 15px;
+    color: #888888;
+    font-weight: 400;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
